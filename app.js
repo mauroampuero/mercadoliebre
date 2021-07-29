@@ -18,7 +18,7 @@ app.get('*', function(req,res){
     res.send('NOT FOUND')
 })
 
-app.listen(process.env.8000, ()=> {
+app.listen(port, ()=> {
     console.log('Pagina corriendo en http://localhost:8000')
 
 })
