@@ -1,0 +1,143 @@
+body{
+    background-color: #ebebeb;
+    margin: 0
+}
+h2{
+    font-size: 17px;
+    font-weight: lighter;
+}
+header{
+    background-color: #EAC926;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img{
+    width: 150px;
+    height: 140px;
+}
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+div.barraBusqueda{
+    min-width: 0px;
+    margin: 0;
+}
+footer{
+    background-color: white;
+
+}
+#password{
+    font-size: 20px;
+    margin: 10px;
+}
+#nombre{
+    font-size: 30px;
+    
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+div.bloques{
+    display: block;
+    padding: 13px;
+}
+.botones{
+    display: block;
+    font-size: 25px;
+    background-color: white;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    margin: auto
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px blue;
+    text-align: center;
+    margin: 0;
+}
+.footer-listas{
+    display: block;
+    max-width: 300px;
+    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+
+
+}
+.hamburguesa-boton{
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 45px;
+    padding: 13px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+.listas{
+    display:none
+}
+.listas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.listas a{
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    padding: 5px 0;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+.copy{
+    
+   display: block;
+   margin: 0;
+   padding: 0;
+   
+
+}
+#iconosazules{
+    color: #1259c3;;
+    font-size: 30px;
+}
+@media (min-width: 768px) {
+    .hamburguesa-boton{
+        display: none;}
+    
+    .listas{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            }
+        }
+        .listas ul {
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            flex-wrap: wrap;
+        }
+        .listas li{
+            margin: 0 9px;
+        }
+    
